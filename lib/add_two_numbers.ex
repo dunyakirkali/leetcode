@@ -8,8 +8,8 @@ end
 
 defmodule AddTwoNumbers do
   @doc """
-      # iex> AddTwoNumbers.solve(%ListNode{val: 2, next: %ListNode{val: 4, next: %ListNode{val: 3, next: nil}}}, %ListNode{val: 5, next: %ListNode{val: 6, next: %ListNode{val: 4, next: nil}}})
-      # %ListNode{val: 7, next: %ListNode{val: 0, next: %ListNode{val: 8, next: nil}}}
+      iex> AddTwoNumbers.solve(%ListNode{val: 2, next: %ListNode{val: 4, next: %ListNode{val: 3, next: nil}}}, %ListNode{val: 5, next: %ListNode{val: 6, next: %ListNode{val: 4, next: nil}}})
+      %ListNode{val: 7, next: %ListNode{val: 0, next: %ListNode{val: 8, next: nil}}}
 
       iex> AddTwoNumbers.solve(%ListNode{val: 2, next: nil}, %ListNode{val: 5, next: %ListNode{val: 6, next: %ListNode{val: 4, next: nil}}})
       %ListNode{val: 7, next: %ListNode{val: 6, next: %ListNode{val: 4, next: nil}}}
