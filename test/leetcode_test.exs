@@ -3,4 +3,5 @@ defmodule LeetcodeTest do
   doctest TwoSum
   doctest AddTwoNumbers
   doctest PalindromeNumber
+  doctest RomanToInteger
 end
