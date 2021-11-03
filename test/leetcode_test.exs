@@ -4,4 +4,5 @@ defmodule LeetcodeTest do
   doctest AddTwoNumbers
   doctest PalindromeNumber
   doctest RomanToInteger
+  doctest ValidParentheses
 end
