@@ -5,4 +5,5 @@ defmodule LeetcodeTest do
   doctest PalindromeNumber
   doctest RomanToInteger
   doctest ValidParentheses
+  doctest RangeCovered
 end
