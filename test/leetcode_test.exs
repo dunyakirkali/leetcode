@@ -6,4 +6,5 @@ defmodule LeetcodeTest do
   doctest RomanToInteger
   doctest ValidParentheses
   doctest RangeCovered
+  doctest DecompressRunLengthEncodedList
 end
