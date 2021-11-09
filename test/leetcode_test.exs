@@ -7,4 +7,5 @@ defmodule LeetcodeTest do
   doctest ValidParentheses
   doctest RangeCovered
   doctest DecompressRunLengthEncodedList
+  doctest PlusOne
 end
