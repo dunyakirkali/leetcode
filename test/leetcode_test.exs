@@ -9,4 +9,5 @@ defmodule LeetcodeTest do
   doctest DecompressRunLengthEncodedList
   doctest PerfectNumber
   doctest PlusOne
+  doctest ValidPalindrome
 end
