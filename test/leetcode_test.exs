@@ -10,4 +10,5 @@ defmodule LeetcodeTest do
   doctest PerfectNumber
   doctest PlusOne
   doctest ValidPalindrome
+  doctest PascalsTriangle
 end
