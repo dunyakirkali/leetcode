@@ -11,4 +11,5 @@ defmodule LeetcodeTest do
   doctest PlusOne
   doctest ValidPalindrome
   doctest PascalsTriangle
+  doctest ReverseInteger
 end
