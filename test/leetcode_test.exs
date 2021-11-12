@@ -13,4 +13,5 @@ defmodule LeetcodeTest do
   doctest PascalsTriangle
   doctest ReverseInteger
   doctest LengthOfLastWord
+  doctest AddBinary
 end
