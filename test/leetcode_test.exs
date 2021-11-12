@@ -12,4 +12,5 @@ defmodule LeetcodeTest do
   doctest ValidPalindrome
   doctest PascalsTriangle
   doctest ReverseInteger
+  doctest LengthOfLastWord
 end
