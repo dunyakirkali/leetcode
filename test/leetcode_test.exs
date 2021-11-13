@@ -17,4 +17,5 @@ defmodule LeetcodeTest do
   doctest ClimbingStairs
   doctest Sqrt
   doctest DailyTemperatures
+  doctest ContainerWithMostWater
 end
