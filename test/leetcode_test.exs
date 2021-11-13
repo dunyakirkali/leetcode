@@ -16,4 +16,5 @@ defmodule LeetcodeTest do
   doctest AddBinary
   doctest ClimbingStairs
   doctest Sqrt
+  doctest DailyTemperatures
 end
