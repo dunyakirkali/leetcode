@@ -15,4 +15,5 @@ defmodule LeetcodeTest do
   doctest LengthOfLastWord
   doctest AddBinary
   doctest ClimbingStairs
+  doctest Sqrt
 end
