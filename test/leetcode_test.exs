@@ -18,4 +18,5 @@ defmodule LeetcodeTest do
   doctest Sqrt
   doctest DailyTemperatures
   doctest ContainerWithMostWater
+  doctest SearchInsertPosition
 end
