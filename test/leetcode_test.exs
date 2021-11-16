@@ -19,4 +19,5 @@ defmodule LeetcodeTest do
   doctest DailyTemperatures
   doctest ContainerWithMostWater
   doctest SearchInsertPosition
+  doctest RemoveDuplicatesFromSortedList
 end

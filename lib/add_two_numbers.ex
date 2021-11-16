@@ -1,11 +1,3 @@
-defmodule ListNode do
-  @type t :: %__MODULE__{
-          val: integer,
-          next: ListNode.t() | nil
-        }
-  defstruct val: 0, next: nil
-end
-
 defmodule AddTwoNumbers do
   @doc """
       iex> AddTwoNumbers.solve(%ListNode{val: 2, next: %ListNode{val: 4, next: %ListNode{val: 3, next: nil}}}, %ListNode{val: 5, next: %ListNode{val: 6, next: %ListNode{val: 4, next: nil}}})
