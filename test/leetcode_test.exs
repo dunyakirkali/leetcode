@@ -20,4 +20,5 @@ defmodule LeetcodeTest do
   doctest ContainerWithMostWater
   doctest SearchInsertPosition
   doctest RemoveDuplicatesFromSortedList
+  doctest LetterCombinationsOfAPhoneNumber
 end
