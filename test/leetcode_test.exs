@@ -22,4 +22,5 @@ defmodule LeetcodeTest do
   doctest RemoveDuplicatesFromSortedList
   doctest LetterCombinationsOfAPhoneNumber
   doctest LengthOfLongestSubstring
+  doctest LongestCommonPrefix
 end
