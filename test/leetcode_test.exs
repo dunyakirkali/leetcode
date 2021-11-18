@@ -23,4 +23,5 @@ defmodule LeetcodeTest do
   doctest LetterCombinationsOfAPhoneNumber
   doctest LengthOfLongestSubstring
   doctest LongestCommonPrefix
+  doctest FindDisappearedNumbers
 end
