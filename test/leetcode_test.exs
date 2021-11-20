@@ -26,4 +26,5 @@ defmodule LeetcodeTest do
   doctest FindDisappearedNumbers
   doctest StrStr
   doctest HammingDistance
+  doctest SingleNonDuplicate
 end
