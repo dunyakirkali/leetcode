@@ -25,4 +25,5 @@ defmodule LeetcodeTest do
   doctest LongestCommonPrefix
   doctest FindDisappearedNumbers
   doctest StrStr
+  doctest HammingDistance
 end
