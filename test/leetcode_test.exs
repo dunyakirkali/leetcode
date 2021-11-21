@@ -27,4 +27,5 @@ defmodule LeetcodeTest do
   doctest StrStr
   doctest HammingDistance
   doctest SingleNonDuplicate
+  doctest BuildTree
 end
