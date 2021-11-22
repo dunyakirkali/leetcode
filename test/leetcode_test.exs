@@ -29,4 +29,5 @@ defmodule LeetcodeTest do
   doctest SingleNonDuplicate
   doctest BuildTree
   doctest DeleteNode
+  doctest InorderTraversal
 end
