@@ -30,4 +30,5 @@ defmodule LeetcodeTest do
   doctest BuildTree
   doctest DeleteNode
   doctest InorderTraversal
+  doctest IntervalIntersection
 end
