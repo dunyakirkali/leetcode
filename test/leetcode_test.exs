@@ -31,4 +31,5 @@ defmodule LeetcodeTest do
   doctest DeleteNode
   doctest InorderTraversal
   doctest IntervalIntersection
+  doctest MaxSubArray
 end
