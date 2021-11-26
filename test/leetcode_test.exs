@@ -34,4 +34,5 @@ defmodule LeetcodeTest do
   doctest MaxSubArray
   doctest GetRow
   doctest MaxProfit
+  doctest Permute
 end
