@@ -33,4 +33,5 @@ defmodule LeetcodeTest do
   doctest IntervalIntersection
   doctest MaxSubArray
   doctest GetRow
+  doctest MaxProfit
 end
