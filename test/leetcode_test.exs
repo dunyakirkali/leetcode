@@ -32,4 +32,5 @@ defmodule LeetcodeTest do
   doctest InorderTraversal
   doctest IntervalIntersection
   doctest MaxSubArray
+  doctest GetRow
 end
