@@ -35,4 +35,5 @@ defmodule LeetcodeTest do
   doctest GetRow
   doctest MaxProfit
   doctest Permute
+  doctest ProductExceptSelf
 end
