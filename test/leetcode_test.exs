@@ -37,4 +37,5 @@ defmodule LeetcodeTest do
   doctest Permute
   doctest ProductExceptSelf
   doctest PreorderTraversal
+  doctest PostorderTraversal
 end
