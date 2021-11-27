@@ -36,4 +36,5 @@ defmodule LeetcodeTest do
   doctest MaxProfit
   doctest Permute
   doctest ProductExceptSelf
+  doctest PreorderTraversal
 end
