@@ -38,4 +38,5 @@ defmodule LeetcodeTest do
   doctest ProductExceptSelf
   doctest PreorderTraversal
   doctest PostorderTraversal
+  doctest AllPathsSourceTarget
 end
