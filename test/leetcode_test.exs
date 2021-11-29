@@ -40,4 +40,5 @@ defmodule LeetcodeTest do
   doctest PreorderTraversal
   doctest PostorderTraversal
   doctest AllPathsSourceTarget
+  doctest AccountsMerge
 end
