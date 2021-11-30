@@ -41,5 +41,6 @@ defmodule LeetcodeTest do
   doctest PostorderTraversal
   doctest AllPathsSourceTarget
   doctest AccountsMerge
+  doctest MaximalRectangle
   doctest LargestRectangleArea
 end
