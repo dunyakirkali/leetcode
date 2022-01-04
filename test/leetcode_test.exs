@@ -43,4 +43,5 @@ defmodule LeetcodeTest do
   doctest AccountsMerge
   doctest MaximalRectangle
   doctest LargestRectangleArea
+  doctest FindJudge
 end
