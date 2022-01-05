@@ -45,4 +45,5 @@ defmodule LeetcodeTest do
   doctest LargestRectangleArea
   doctest FindJudge
   doctest BitwiseComplement
+  doctest Partition
 end
