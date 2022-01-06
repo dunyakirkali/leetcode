@@ -46,4 +46,5 @@ defmodule LeetcodeTest do
   doctest FindJudge
   doctest BitwiseComplement
   doctest Partition
+  doctest CarPooling
 end
