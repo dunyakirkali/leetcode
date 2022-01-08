@@ -47,4 +47,5 @@ defmodule LeetcodeTest do
   doctest BitwiseComplement
   doctest Partition
   doctest CarPooling
+  doctest CherryPickup
 end
