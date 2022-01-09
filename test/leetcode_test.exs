@@ -48,4 +48,5 @@ defmodule LeetcodeTest do
   doctest Partition
   doctest CarPooling
   doctest CherryPickup
+  doctest IsRobotBounded
 end
