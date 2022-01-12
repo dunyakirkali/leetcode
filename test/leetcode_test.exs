@@ -49,4 +49,5 @@ defmodule LeetcodeTest do
   doctest CarPooling
   doctest CherryPickup
   doctest IsRobotBounded
+  doctest InsertIntoBst
 end
