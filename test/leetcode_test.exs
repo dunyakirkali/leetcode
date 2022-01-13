@@ -50,4 +50,5 @@ defmodule LeetcodeTest do
   doctest CherryPickup
   doctest IsRobotBounded
   doctest InsertIntoBst
+  doctest FindMinArrowShots
 end
