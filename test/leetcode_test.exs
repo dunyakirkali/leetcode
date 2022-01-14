@@ -51,4 +51,5 @@ defmodule LeetcodeTest do
   doctest IsRobotBounded
   doctest InsertIntoBst
   doctest FindMinArrowShots
+  doctest MyAtoi
 end
