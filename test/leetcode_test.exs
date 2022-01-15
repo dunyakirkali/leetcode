@@ -52,4 +52,5 @@ defmodule LeetcodeTest do
   doctest InsertIntoBst
   doctest FindMinArrowShots
   doctest MyAtoi
+  doctest MinJumps
 end
