@@ -28,52 +28,58 @@ defmodule MinJumps do
           [ind | ex]
         end)
       end)
-    visited = MapSet.new
-    visited_groups = MapSet.new
+    Agent.start_link(fn -> MapSet.new end, name: :visited)
+    Agent.start_link(fn -> MapSet.new end, name: :visited_groups)
+
     queue = MapSet.new |> MapSet.put(0)
 
-    bfs(arr, queue, visited, visited_groups, groups, dest, 0)
+    bfs(arr, queue, groups, dest, 0)
   end
 
-  def bfs(arr, queue, visited, visited_groups, groups, dest, dist) do
+  def bfs(arr, queue, groups, dest, dist) do
+    visited = Agent.get(:visited, &(&1))
+
     if MapSet.member?(queue, dest) do
       dist
     else
-      {ns, visited, visited_groups} =
+      ns =
         queue
         |> MapSet.difference(visited)
-        |> Enum.reduce({MapSet.new, visited, visited_groups}, fn index, {ns, visited, visited_groups} ->
+        |> Enum.reduce(MapSet.new, fn index, ns ->
           val = Enum.at(arr, index)
-          {nxt, visg} = possible_moves(val, groups, visited_groups, index, dest)
-
-          {MapSet.union(ns, nxt), MapSet.put(visited, index), visg}
+          nxt = possible_moves(val, groups, index, dest)
+          Agent.update(:visited, fn visited ->
+            MapSet.put(visited, index)
+          end)
+          MapSet.union(ns, nxt)
         end)
 
-      bfs(arr, ns, visited, visited_groups, groups, dest, dist + 1)
+      bfs(arr, ns, groups, dest, dist + 1)
     end
   end
 
-  def possible_moves(val, groups, visited_groups, pos, dest) do
-    ns =
-      if MapSet.member?(visited_groups, val) do
-        []
-      else
-        groups[val]
-      end
-      |> Kernel.++(
-        [
-          pos - 1,
-          pos + 1,
-        ]
-      )
-      |> Enum.filter(fn x ->
-        0 <= x and x <= dest
+  def possible_moves(val, groups, pos, dest) do
+    visited_groups = Agent.get(:visited_groups, &(&1))
+    if MapSet.member?(visited_groups, val) do
+      []
+    else
+      Agent.update(:visited_groups, fn visited_groups ->
+        MapSet.put(visited_groups, val)
       end)
-      |> Enum.filter(fn x ->
-        x != pos
-      end)
-      |> MapSet.new
-
-    {ns, MapSet.put(visited_groups, val)}
+      groups[val]
+    end
+    |> Kernel.++(
+      [
+        pos - 1,
+        pos + 1,
+      ]
+    )
+    |> Enum.filter(fn x ->
+      0 <= x and x <= dest
+    end)
+    |> Enum.filter(fn x ->
+      x != pos
+    end)
+    |> MapSet.new
   end
 end
