@@ -53,4 +53,5 @@ defmodule LeetcodeTest do
   doctest FindMinArrowShots
   doctest MyAtoi
   doctest MinJumps
+  doctest MaxDistToClosest
 end
