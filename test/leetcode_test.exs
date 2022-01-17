@@ -54,4 +54,5 @@ defmodule LeetcodeTest do
   doctest MyAtoi
   doctest MinJumps
   doctest MaxDistToClosest
+  doctest WordPattern
 end
