@@ -55,4 +55,5 @@ defmodule LeetcodeTest do
   doctest MinJumps
   doctest MaxDistToClosest
   doctest WordPattern
+  doctest CanPlaceFlowers
 end
