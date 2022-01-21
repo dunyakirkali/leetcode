@@ -56,4 +56,5 @@ defmodule LeetcodeTest do
   doctest MaxDistToClosest
   doctest WordPattern
   doctest CanPlaceFlowers
+  doctest CanCompleteCircuit
 end
