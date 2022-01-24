@@ -57,4 +57,5 @@ defmodule LeetcodeTest do
   doctest WordPattern
   doctest CanPlaceFlowers
   doctest CanCompleteCircuit
+  doctest DetectCapitalUse
 end
