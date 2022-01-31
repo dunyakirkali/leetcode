@@ -58,4 +58,5 @@ defmodule LeetcodeTest do
   doctest CanPlaceFlowers
   doctest CanCompleteCircuit
   doctest DetectCapitalUse
+  doctest MaximumWealth
 end
