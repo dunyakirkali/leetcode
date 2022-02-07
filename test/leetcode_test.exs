@@ -59,4 +59,5 @@ defmodule LeetcodeTest do
   doctest CanCompleteCircuit
   doctest DetectCapitalUse
   doctest MaximumWealth
+  doctest FindTheDifference
 end
