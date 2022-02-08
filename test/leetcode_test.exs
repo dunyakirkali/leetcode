@@ -60,4 +60,5 @@ defmodule LeetcodeTest do
   doctest DetectCapitalUse
   doctest MaximumWealth
   doctest FindTheDifference
+  doctest AddDigits
 end
