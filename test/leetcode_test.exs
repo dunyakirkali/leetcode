@@ -61,4 +61,5 @@ defmodule LeetcodeTest do
   doctest MaximumWealth
   doctest FindTheDifference
   doctest AddDigits
+  doctest NumRescueBoats
 end
