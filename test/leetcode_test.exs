@@ -62,4 +62,5 @@ defmodule LeetcodeTest do
   doctest FindTheDifference
   doctest AddDigits
   doctest NumRescueBoats
+  doctest TwoCitySchedCost
 end
