@@ -63,4 +63,5 @@ defmodule LeetcodeTest do
   doctest AddDigits
   doctest NumRescueBoats
   doctest TwoCitySchedCost
+  doctest Search
 end
