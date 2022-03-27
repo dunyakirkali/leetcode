@@ -64,4 +64,5 @@ defmodule LeetcodeTest do
   doctest NumRescueBoats
   doctest TwoCitySchedCost
   doctest Search
+  doctest KWeakestRows
 end
