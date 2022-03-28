@@ -66,4 +66,5 @@ defmodule LeetcodeTest do
   doctest Search
   doctest KWeakestRows
   doctest SearchTwo
+  doctest SearchThree
 end
