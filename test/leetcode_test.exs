@@ -65,4 +65,5 @@ defmodule LeetcodeTest do
   doctest TwoCitySchedCost
   doctest Search
   doctest KWeakestRows
+  doctest SearchTwo
 end
