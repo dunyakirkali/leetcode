@@ -67,4 +67,5 @@ defmodule LeetcodeTest do
   doctest KWeakestRows
   doctest SearchTwo
   doctest SearchThree
+  doctest FindMin
 end
