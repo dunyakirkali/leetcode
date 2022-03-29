@@ -68,4 +68,5 @@ defmodule LeetcodeTest do
   doctest SearchTwo
   doctest SearchThree
   doctest FindMin
+  doctest FindDuplicate
 end
