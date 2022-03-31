@@ -70,4 +70,5 @@ defmodule LeetcodeTest do
   doctest FindMin
   doctest FindDuplicate
   doctest SearchMatrix
+  doctest SplitArray
 end
