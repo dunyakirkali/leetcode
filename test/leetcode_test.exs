@@ -72,4 +72,5 @@ defmodule LeetcodeTest do
   doctest SearchMatrix
   doctest SplitArray
   doctest ReverseString
+  doctest ValidPalindromeTwo
 end
