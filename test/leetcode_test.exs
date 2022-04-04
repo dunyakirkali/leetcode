@@ -71,4 +71,5 @@ defmodule LeetcodeTest do
   doctest FindDuplicate
   doctest SearchMatrix
   doctest SplitArray
+  doctest ReverseString
 end
