@@ -73,4 +73,5 @@ defmodule LeetcodeTest do
   doctest SplitArray
   doctest ReverseString
   doctest ValidPalindromeTwo
+  doctest LastStoneWeight
 end
