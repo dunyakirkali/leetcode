@@ -74,4 +74,5 @@ defmodule LeetcodeTest do
   doctest ReverseString
   doctest ValidPalindromeTwo
   doctest LastStoneWeight
+  doctest CalPoints
 end
