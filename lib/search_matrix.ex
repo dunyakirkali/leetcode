@@ -18,7 +18,6 @@ defmodule SearchMatrix do
     bin_search(list, target, 0, length(list) - 1)
   end
 
-  # def bin_search([key], key, _, _), do: true
   def bin_search(list, key, low, high) do
     if high < low do
       false

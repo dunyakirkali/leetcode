@@ -13,7 +13,6 @@ defmodule FindMinArrowShots do
   def solve(points) do
     points
     |> Enum.sort_by(fn [_, e] -> e end)
-    |> IO.inspect()
     |> do_solve(-100000000000000, 0)
   end
 

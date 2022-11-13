@@ -31,6 +31,7 @@ defmodule LeetcodeTest do
   doctest BuildTree
   doctest DeleteNode
   doctest InorderTraversal
+  # doctest LargestComponentSize
   doctest IntervalIntersection
   doctest MaxSubArray
   doctest GetRow
@@ -43,12 +44,15 @@ defmodule LeetcodeTest do
   doctest AccountsMerge
   doctest MaximalRectangle
   doctest LargestRectangleArea
+  doctest FindMedianSortedArrays
+  doctest NumDifferentIntegers
   doctest FindJudge
   doctest BitwiseComplement
   doctest Partition
   doctest CarPooling
   doctest CherryPickup
   doctest IsRobotBounded
+  doctest SumRootToLeaf
   doctest InsertIntoBst
   doctest FindMinArrowShots
   doctest MyAtoi
@@ -59,8 +63,10 @@ defmodule LeetcodeTest do
   doctest CanCompleteCircuit
   doctest DetectCapitalUse
   doctest MaximumWealth
+  doctest FindAnagrams
   doctest FindTheDifference
   doctest AddDigits
+  doctest SingleNumber
   doctest NumRescueBoats
   doctest TwoCitySchedCost
   doctest Search
