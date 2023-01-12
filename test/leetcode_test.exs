@@ -81,4 +81,5 @@ defmodule LeetcodeTest do
   doctest ValidPalindromeTwo
   doctest LastStoneWeight
   doctest CalPoints
+  doctest MaximumCountOfPositiveIntegerAndNegativeInteger
 end
