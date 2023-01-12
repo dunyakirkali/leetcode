@@ -8,7 +8,7 @@ defmodule MaximumCountOfPositiveIntegerAndNegativeInteger do
       4
   """
   @spec solve(nums :: [integer]) :: integer
-  def maximum_count(nums) do
+  def solve(nums) do
     nums
     |> Enum.reduce([0, 0], fn item, [less, more] ->
       cond do
